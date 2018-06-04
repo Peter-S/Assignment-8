@@ -16,7 +16,6 @@ public class HomeWork {
         System.out.println("Testing: " + list);
         list.replaceAll(18, 236551);
         System.out.println("Results: " + list);
-        System.out.println("I can't get this next one to work. It looks correct");
         System.out.println("New list for next problem ");
         System.out.println(list.lastIndxOf(236551));
         }
