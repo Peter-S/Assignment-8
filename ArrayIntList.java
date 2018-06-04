@@ -145,13 +145,15 @@ public class ArrayIntList {
             }
         }
     }
-//Last Index of method - it looks right to me but I can not get it to work :-(
+//LastIndexOf method
     public int lastIndxOf(int num) {
         int ind = 0;
         for (int i = 0; i < size; i++) {
             if (elementData[i] == num) {
                 ind = i;
-            }else ind = -1;
+            }else if (ind == 0){
+                ind = -1;
+            }
         }return ind;
     }
 }
